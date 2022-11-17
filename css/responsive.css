@@ -1,0 +1,62 @@
+/*Mobile devices*/
+@media(min-width:320px){
+    
+}
+
+/*iPads, Tablets*/
+@media(min-width:481px){
+    
+}
+
+/*iPads, Tablets*/
+@media(min-width:576px){
+    
+}
+
+/*Small screens, laptops*/
+@media(min-width: 768px){
+   .nav__btn{
+    display: none;
+   }
+   
+   .menu{
+    display: flex;
+   }
+
+   .nav-menu{
+    display: none;
+   }
+
+   
+}
+
+/*Small screens, laptops*/
+@media(min-width:992px){
+    
+    .header__links{
+        display: block;
+       }
+}
+
+/*Desktops, large screens*/
+@media(min-width:1025px){
+   
+}
+
+
+
+@media(min-width:1200px){
+   
+}
+
+@media(min-width:1400px){
+   
+}
+
+@media(min-width:1600px){
+    
+}
+
+@media(min-width:1900px){
+   
+}
