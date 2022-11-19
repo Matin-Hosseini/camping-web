@@ -1,4 +1,26 @@
 /*Mobile devices*/
+@media(max-width:340px){
+    .header-content__title{
+        font-size: 3.5rem;
+    }
+
+    .header-content__caption{
+        font-size: 1.7rem;
+    }
+
+    .nav-menu{
+        width: 17rem;
+        padding: 1rem;
+    }
+}
+
+@media(max-width:400px){
+    .nav-menu{
+        width: 20rem;
+    }
+}
+
+
 @media(min-width:320px){
     
 }
@@ -15,35 +37,31 @@
 
 /*Small screens, laptops*/
 @media(min-width: 768px){
-   .nav__btn{
+   .nav__btn, .nav-menu{
     display: none;
    }
    
    .menu{
     display: flex;
    }
-
-   .nav-menu{
-    display: none;
-   }
-
-   
 }
 
 /*Small screens, laptops*/
 @media(min-width:992px){
     
-    .header__links{
+    .nav__links{
         display: block;
-       }
+    }
+
+    .header-content__caption{
+        max-width: 50rem;
+    }
 }
 
 /*Desktops, large screens*/
 @media(min-width:1025px){
    
 }
-
-
 
 @media(min-width:1200px){
    
