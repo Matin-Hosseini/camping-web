@@ -12,6 +12,18 @@
         width: 17rem;
         padding: 1rem;
     }
+
+    /*
+    ******  Main-> Services  *****
+    */
+
+    .service{
+        height: 24rem;
+    }
+
+    .service__caption{
+        font-size: 1.2rem;
+    }
 }
 
 @media(max-width:400px){
@@ -32,7 +44,22 @@
 
 /*iPads, Tablets*/
 @media(min-width:576px){
-    
+    /*
+
+    ***************
+        Services
+    ***************
+
+    */
+
+    /* .services{
+        gap: 1rem;
+    }
+
+    .service{
+        flex-grow:  1;
+    } */
+
 }
 
 /*Small screens, laptops*/
@@ -44,6 +71,8 @@
    .menu{
     display: flex;
    }
+
+   
 }
 
 /*Small screens, laptops*/
@@ -60,7 +89,7 @@
 
 /*Desktops, large screens*/
 @media(min-width:1025px){
-   
+  
 }
 
 @media(min-width:1200px){
