@@ -24,6 +24,18 @@
     .service__caption{
         font-size: 1.2rem;
     }
+
+        /*
+    ******  Main-> destinations  *****
+    */
+
+    .destinations__logo{
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+    .destinatons__title{
+        font-size: 2.1rem;
+    }
 }
 
 @media(max-width:400px){
@@ -105,5 +117,5 @@
 }
 
 @media(min-width:1900px){
-   
+    
 }
