@@ -30,6 +30,38 @@ body {
 
 /*
 
+    --ScrollBar--
+
+*/
+
+/*  For FireFox  */
+html{
+  scrollbar-width: thin;
+  scrollbar-color: #455864 #1F272C;
+}
+
+body::-webkit-scrollbar{
+  width: .7vw;
+  background-color: #1F272C;
+}
+
+body::-webkit-scrollbar-track{
+  border-radius: 3rem;
+ 
+  margin-block: 1rem;
+}
+
+body::-webkit-scrollbar-thumb{
+  border-radius: 3rem;
+  background-color: #2c373d;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background-color: #617d8f;
+}
+
+/*
+
     --Reset Styles--
 
 */
