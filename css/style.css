@@ -812,14 +812,9 @@ header {
 .footer__wrapper{
   /* display: flex; */
   /* justify-content: space-between; */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-.footer__copy-right{
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 1.4rem;
-}
 /*
 
 ***************
@@ -841,7 +836,7 @@ header {
 }
 
 .footer-app{
-
+  display: none;
 }
 
 .footer-app__link{
@@ -863,6 +858,7 @@ header {
 .footer__right{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2rem;
   /* flex-basis: 50%; */
 }
 
@@ -885,4 +881,14 @@ header {
 .footer-pages__link:hover{
   color: var(--orange);
   padding-left: 1rem;
+}
+
+.footer-app--mobile{
+  display: block;
+}
+
+.footer__copy-right{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.4rem;
 }

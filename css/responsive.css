@@ -54,6 +54,29 @@
     .newsletter__title{
         max-width: 25rem;
     }
+
+    /*
+
+    ***************
+        Footer
+    ***************
+
+    */
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer__right{
+        justify-content: center;
+    }
+
+    .footer-list{
+        /* margin: 0 auto;
+        margin-bottom: 2rem; */
+        width: 100%;
+    }
+
 }
 
 
@@ -151,6 +174,38 @@
 
     */
 
+    /*
+
+    ***************
+        Footer
+    ***************
+
+    */
+
+    
+
+    .footer-app{
+        display: block;
+    }
+
+    .footer-app--mobile{
+        display: none;
+    }
+
+    .footer__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__left{
+        max-width: 50rem;
+    }
+
+    .footer__to-top-scroll{
+        left: auto;
+        margin-right: 1.5rem;
+    }
+    
+
 
     
    
@@ -195,7 +250,7 @@
         Newsletter
     ***************
 
-*/
+    */
 
     .newsletter{
      padding: 5rem 10rem;
@@ -203,6 +258,18 @@
     .newsletter__content{
         flex-basis: 54%;
        
+    }
+
+    /*
+
+    ***************
+        Newsletter
+    ***************
+
+    */
+
+    .footer__left{
+        max-width: 62rem;
     }
 }
 
