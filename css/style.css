@@ -8,7 +8,6 @@
   --light-gray--background: hsl(0deg 0% 55% / 10%);
   --gray-text: #8D8D8D;
 
-
   /*Fonts*/
   --primary-font: "Roboto",Arial, Helvetica, sans-serif;
   --primary-font-md: "Roboto-Medium",Arial, Helvetica, sans-serif;
@@ -117,7 +116,7 @@ a {
 
 */
 
-header {
+.header {
   width: 100%;
   height: 76rem;
   background-image: linear-gradient(
@@ -127,7 +126,7 @@ header {
     url("../images/header-bg.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 0 0 18rem 18rem;
+  border-radius: 0 0 10rem 10rem;
 }
 
 .nav {

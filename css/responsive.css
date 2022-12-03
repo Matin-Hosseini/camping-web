@@ -1,5 +1,13 @@
 /*Mobile devices*/
 @media(max-width:340px){
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
+
     .header-content__title{
         font-size: 3.5rem;
     }
@@ -39,6 +47,14 @@
 }
 
 @media(max-width:400px){
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
+
     .nav-menu{
         width: 20rem;
     }
@@ -111,6 +127,14 @@
 
 /*Small screens, laptops*/
 @media(min-width: 768px){
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
+
    .nav__btn, .nav-menu{
     display: none;
    }
@@ -158,14 +182,17 @@
     margin: 0;
     flex-basis: 40%;
    }
-
-
-  
-   
 }
 
 /*Small screens, laptops*/
 @media(min-width:992px){
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
     
     .nav__links{
         display: block;
@@ -196,8 +223,6 @@
 
     */
 
-    
-
     .footer-app{
         display: block;
     }
@@ -218,12 +243,6 @@
         left: auto;
         margin-right: 1.5rem;
     }
-    
-
-
-    
-   
-    
 }
 
 /*Desktops, large screens*/
@@ -242,7 +261,7 @@
     */
 
     .header{
-        min-height: 85vh;
+        min-height: 90vh;
     }
 
     /*
@@ -273,8 +292,6 @@
         width: 34rem;
         height: 25rem;
     }
-
-
 }
 
 @media(min-width:1400px){
@@ -314,6 +331,29 @@
 }
 
 @media(min-width:1600px){
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
+
+    .header{
+        border-radius: 0 0 15rem 15rem;
+    }
+
+    /*
+
+    ***************
+        Footer
+    ***************
+
+    */
+
+    .footer{
+        border-radius: 15rem 15rem 0 0;
+    }
 
     /*
 
@@ -326,10 +366,30 @@
     .newsletter::before{
         left: 0rem;
     }
-
-    
 }
 
 @media(min-width:1900px){
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
     
+    .header{
+        border-radius: 0 0 18rem 18rem;
+    }
+
+    /*
+
+    ***************
+        Footer
+    ***************
+
+    */
+
+    .footer{
+        border-radius: 18rem 18rem 0 0;
+    }
 }
