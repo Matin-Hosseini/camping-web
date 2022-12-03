@@ -134,6 +134,15 @@
     padding: 5rem 5rem;
    }
 
+   .newsletter::before{
+    width: auto;
+    height: auto;
+    top: 0;
+    left: -40rem;
+    background-size: auto;
+    background-position: center left;
+   }
+
    .newsletter__content{
     flex-basis: 60%;
     padding-right: 4rem;
@@ -173,6 +182,11 @@
     ***************
 
     */
+
+    .newsletter::before{
+        top: 0;
+        left: -41rem;
+    }
 
     /*
 
@@ -214,26 +228,46 @@
 
 /*Desktops, large screens*/
 @media(min-width:1025px){
-  
+
 }
 
 @media(min-width:1200px){
-/*
+
+    /*
+
+    ***************
+        Header
+    ***************
+
+    */
+
+    .header{
+        min-height: 85vh;
+    }
+
+    /*
 
     ***************
         Newsletter
     ***************
 
-*/
+    */
 
     .newsletter{
         justify-content: space-between;
         padding: 5rem 8rem;
     }
+    
+    .newsletter::before{
+        top: 0;
+        left: -30rem;
+    }
+
     .newsletter__content{
         flex-basis: auto;
         /* width: 60rem; */
     }
+
      .newsletter__banner{
         flex-basis: auto;
         width: 34rem;
@@ -255,6 +289,12 @@
     .newsletter{
      padding: 5rem 10rem;
     }
+
+    .newsletter::before{
+        top: 0;
+        left: -15rem;
+    }
+
     .newsletter__content{
         flex-basis: 54%;
        
@@ -263,7 +303,7 @@
     /*
 
     ***************
-        Newsletter
+        Footer
     ***************
 
     */
@@ -274,6 +314,19 @@
 }
 
 @media(min-width:1600px){
+
+    /*
+
+    ***************
+        Newsletter
+    ***************
+
+    */
+
+    .newsletter::before{
+        left: 0rem;
+    }
+
     
 }
 

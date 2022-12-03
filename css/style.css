@@ -32,6 +32,7 @@ body {
   font-size: 1.6rem;
   font-family: var(--primary-font);
   background-color: var(--body-background);
+  overflow-x: hidden;
 }
 
 /*
@@ -525,7 +526,33 @@ header {
 .destinations{
   text-align: center;
   color: var(--dark-gray);
+  position: relative;
+  z-index: 2;
 }
+.destinations::before,
+.destinations::after{
+  content: "";
+  position: absolute;
+  width: 60rem;
+  height: 60rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  /* top: 0; */
+}
+
+.destinations::before{
+  background-image: url("../images/svgs/shape1.svg");
+  right: -50rem;
+  top: 10rem;
+}
+
+.destinations::after{
+  background-image: url("../images/svgs/shape2.svg");
+  left: -50rem;
+  bottom: 46rem;
+}
+
 
 .destinations__logo{
   display: block;
@@ -676,6 +703,26 @@ header {
   border-radius: 1.5rem;
   /* flex-wrap: wrap; */
   color: var(--dark-gray);
+  position: relative;
+  overflow: hidden;
+}
+
+.newsletter::before{
+  content: "";
+  position: absolute;
+  top: 22rem;
+  bottom: 0;
+  left: -19rem;
+  right: 0;
+  background: url("../images/svgs/shape3.svg") no-repeat;
+  width: 55rem;
+  height: 55rem;
+  background-size: contain;
+}
+
+.newsletter__content,
+.newsletter__banner{
+  z-index: 2;
 }
 
 /* .newsletter__content{
@@ -746,6 +793,7 @@ header {
   outline: none;
   cursor: pointer;
   flex-shrink: 0;
+  box-shadow: 0 0 1rem #E76F5174;
 }
 
 .newsletter__banner{
@@ -794,7 +842,7 @@ header {
   left: 0;
   margin: 0 auto;
   top: -2.5rem;
-
+  box-shadow: 0 0 1rem #3b373545;
   transition: all .2s ease-in;
 }
 
@@ -809,11 +857,11 @@ header {
   margin-bottom: 2rem;
 }
 
-.footer__wrapper{
+/* .footer__wrapper{ */
   /* display: flex; */
   /* justify-content: space-between; */
   /* flex-wrap: wrap; */
-}
+/* } */
 
 /*
 
@@ -827,9 +875,9 @@ header {
   max-width: 62rem;
 }
 
-.footer-content{
+/* .footer-content{
 
-}
+} */
 
 .footer-content__description{
   margin-bottom: 4rem;
@@ -837,14 +885,6 @@ header {
 
 .footer-app{
   display: none;
-}
-
-.footer-app__link{
-  
-}
-
-.footer-app__img{
-
 }
 
 /*
@@ -866,10 +906,6 @@ header {
   /* padding: 0 1.5rem; */
   width: 16rem;
   margin-bottom: 1rem;
-}
-
-.footer-pages__item{
-
 }
 
 .footer-pages__link{
